@@ -1,0 +1,21 @@
+/*Utilizamos un selector universal para establecer el valor de box-sizing a border-box en todas las cajas*/
+* {
+  box-sizing: border-box;
+}
+/*Utilizamos el selector por etiqueta div para establecer los valores de heigth, width, padding, margin y font-family a todos los elementos div. A diferencia del primer ejercicio, esta vez establecemos un ancho específico para que las cajas no ocupen todo el ancho de la pantalla*/
+div {
+  height: 120px;
+  width: 230px;
+  padding: 9px;
+  margin: 9px;
+  font-family: "Times New Roman";
+}
+/*Utilizamos el selector de clase .yellow para establecer el background color de ese elemento div en particular*/
+.yellow {
+  background-color: #ffc107;
+}
+/*Utilizamos el selector de clase .gray para establecer el background color y color de texto de ese elemento div en particular*/
+.gray {
+  background-color: #212121;
+  color: white;
+}
